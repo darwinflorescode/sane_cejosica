@@ -2,6 +2,7 @@
 
 if (isset($_GET['id'])) {
 
+
 	$idestudiante = $_GET['id'];
 	$titulo = 'EXPEDIENTE DE ESTUDIANTE';
 	$img = '<span ><img width="3%" height="3%" style="text-align: right; float: right; width=34px; height24px;" src="../librerias/will.png" ></span>';
