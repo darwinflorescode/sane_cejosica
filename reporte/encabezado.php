@@ -1,6 +1,6 @@
 <?php
 echo "<script>alert('En el servidor Heroku.com estamos tieniendo problemas al ejecutar librería dompdf')</script>";
-
+ob_start();
 include '../sessionstart/bloqsession.php';
 require_once("../conexionpdo/config.php");
 $conn = conexion();
