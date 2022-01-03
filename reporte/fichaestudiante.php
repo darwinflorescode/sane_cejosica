@@ -274,6 +274,17 @@ if (isset($_GET['id'])) {
 		include 'pie.php';
 		$html .= '</body>
 		</html>';
+		// $options = $dompdf->getOptions();
+		// $options->set('chroot', '/');
+
+		// $dompdf->loadHtml($html);
+
+		// $dompdf->setpaper("Letter");
+		// $dompdf->render();
+
+		// $dompdf->stream("reportepdf.pdf", array("Attachment" => false));
+
+		echo $html;
 	} else {
 		echo '<div class="alert alert-danger alert-dismissable" align="center">
 
