@@ -1,4 +1,6 @@
 <?php
+echo "<script>alert('En el servidor Heroku.com estamos tieniendo problemas al ejecutar librería dompdf')</script>";
+
 include '../sessionstart/bloqsession.php';
 require_once("../conexionpdo/config.php");
 $conn = conexion();
@@ -90,5 +92,3 @@ if (isset($pdf)) {
   <div align="center"><h2 class="page-header"><span ></span> ' . $img . ' ' . $titulo . '</h2></div>
 <div class="lineaHeader"><div class="celeste"></div><div class="amarillo"></div><div class="rojo"></div><div class="verde"></div></div>
 </table>';
-
-echo "<script>alert('En el servidor Heroku.com estamos tieniendo problemas al ejecutar librería dompdf')</script>";
