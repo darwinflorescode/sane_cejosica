@@ -1,0 +1,116 @@
+  @page{
+    margin-top: 0.5cm;
+    margin-left:0.5cm;
+    margin-right:0.5cm;
+
+
+  }
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+  @media print {
+  * { -webkit-print-color-adjust: exact; }
+  html { background: none; padding: 0; }
+  body { box-shadow: none; 
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+
+}
+
+}
+
+fieldset.scheduler-border {
+  font-size: 11.5px;
+    border: 1px solid #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+
+    legend.scheduler-border {
+        font-size: 1.2em !important;
+        font-weight: bold !important;
+        text-align: left !important;
+        width:auto;
+        padding:0 10px;
+        border-bottom:none;
+     
+    }
+
+
+
+#usuarios {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#usuarios td, #usuarios th {
+    border: 1px solid #ddd;
+    font-size: 13px;
+    padding: 8px;
+}
+
+#usuarios tr:nth-child(odd){background-color: #f2f2f2;}
+
+#usuarios th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+#estilonota {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#estilonota  td,#estilonota tr, #estilonota th {
+    border: 1px solid #ddd;
+    font-size: 11px;
+    padding: 8px;
+}
+
+#estilonota tbody tr:nth-child(odd){background-color: #f2f2f2;}
+#estilonota thead th {
+  font-size: 13px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: #0D47A1;
+    color: white;
+}
+
+.lineaHeader div.celeste {
+    background-color: #0D47B6;
+}
+.lineaHeader div.verde {
+    background-color: #2196F3;
+}
+.lineaHeader div.amarillo {
+    background-color: #F1C40F;
+}
+.lineaHeader div.rojo {
+    background-color: #BE2857;
+}
+.lineaHeader div {
+    height: 3px;
+    width: 25%;
+    display: inline-block;
+}
+.page-header {
+
+    display: inline-block;
+    border-bottom: none;
+    margin: 3px 0 0;
+    padding: 0;
+    font-size: 14px;
+}
+.img-thumbnail {display: inline-block;  padding: 4px; line-height: 1.42857143; background-color: #fff; border: 1px solid #ddd; border-radius: 6px; -webkit-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
