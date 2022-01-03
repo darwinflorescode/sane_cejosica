@@ -62,8 +62,6 @@
   <!--INICIO DE BANNER-->
 
   <div class="banner" style="text-align: center;">
-
-
     <img src="./librerias/cejosicalogo.png" alt="Logo Universidad de El Salvador" class="loguito">
     <span class="letra ">Sistema de Administración de Notas Escolar, Complejo Educativo José Simeón Cañas (SANE-CEJOSICA)</span>
   </div>
@@ -138,7 +136,7 @@
             var fecha = new Date();
             var anio = fecha.getFullYear();
 
-            document.write("ESCUELA ESPECIALIZADA EN INGENIERIA ITCA FEPADE MEGATEC-ZACATECOLUCA, " + anio + ".");
+            document.write("DARWIN FLORES, " + anio + ".");
           </script>
           <br>
           <div>&copy; Complejo Educativo José Simeón Cañas. Todos los derechos reservados</div>
