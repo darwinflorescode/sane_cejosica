@@ -91,7 +91,7 @@
                   <tr>
                     <td><label for="user1">Usuario: <label class="fa fa-users"> &nbsp;</label></label></td>
                     <td>
-                      <input type="text" name="user1" id="user1" class="form-control inputstl" placeholder="Usuario o correo">
+                      <input type="text" name="user1" id="user1" class="form-control inputstl" placeholder="Usuario o correo" value="cejosica">
                     </td>
                   </tr>
                   <tr>
@@ -100,7 +100,7 @@
                   <tr>
                     <td><label for="pass1">Constraseña: <label class="fa fa-lock"></label>&nbsp;&nbsp;&nbsp;</label></td>
                     <td>
-                      <input type="password" name="pass1" id="pass1" class="form-control inputstl" placeholder="Constraseña">
+                      <input type="password" name="pass1" id="pass1" value="cejosica" class="form-control inputstl" placeholder="Constraseña">
                     </td>
                   </tr>
                 </table>
